@@ -1,0 +1,158 @@
+name: nuuz
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.27+28
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  yaml: ^3.1.1
+  lazy_load_scrollview: ^1.3.0
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.6.0
+  flutter_riverpod: ^2.1.3
+  flutter_svg: ^1.1.6
+  go_router: ^6.0.1
+  permission_handler: ^10.2.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.7.0
+  intl: ^0.17.0
+  flutter_blue_plus: 1.3.0
+  camera: ^0.10.2
+  chewie: ^1.3.6
+  kakao_flutter_sdk_user: ^1.3.1
+  configurable_expansion_tile_null_safety: ^3.1.1
+  flutter_launcher_icons: ^0.11.0
+  pattern_formatter: ^2.0.0
+  shared_preferences: ^2.0.17
+  dio: ^4.0.6
+  image_cropper: ^3.0.1
+  avatar_stack: ^1.1.2
+  mobile_scanner: ^2.1.0
+  flutter_naver_login:
+    path: ./flutter_naver_login
+  lottie: ^2.3.0
+  easy_localization: ^3.0.1
+  cached_network_image: ^3.2.3
+  get: ^4.6.5
+  get_it: ^7.2.0
+  dotted_border: ^2.0.0+3
+  image_picker: ^0.8.6+2
+  http_parser: ^4.0.2
+  webview_flutter: ^4.0.7
+  video_player: ^2.5.1
+  scidart: ^0.0.2-dev.12
+  equatable: ^2.0.5
+  dart_jsonwebtoken: ^2.7.1
+  riverpod_annotation: ^2.0.0
+  carousel_slider: ^4.2.1
+  image_compare_slider: ^2.6.0
+  table_calendar: ^3.0.9
+  expandable_text: ^2.3.0
+  flutter_switch: ^0.3.2
+  flutter_slidable: ^2.0.0
+  image_crop: ^0.4.1
+  fluttertoast: ^8.2.1
+  url_launcher: ^6.1.10
+  flutter_native_view: ^0.0.2
+  flutter_html: ^3.0.0-alpha.6
+  overlay_loading_progress: ^1.0.1
+  another_flushbar: ^1.12.29
+
+  flutter_local_notifications: ^12.0.4
+  flutter_timezone: ^1.0.4
+  rive: ^0.10.3
+  flutter_inappwebview: ^5.7.2+3
+  keyboard_attachable: ^2.1.0
+  like_button: ^2.0.5
+  firebase_messaging: ^14.4.1
+  firebase_core: ^2.10.0
+  sign_in_with_apple: ^4.3.0
+  google_sign_in: ^6.1.0
+  #firebase_auth: ^4.4.2
+  arkit_plugin:
+    path: ./arkit_plugin-1.0.6
+  wakelock: ^0.6.2
+  timezone: ^0.9.2
+  permission_handler_platform_interface: ^3.10.0
+
+dependency_overrides:
+    intl: ^0.18.0
+  
+##FlutterFragmentActivity->FlutterActivity
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+  json_serializable: ^6.5.4
+  riverpod_generator: ^2.0.0
+
+
+#dependency_overrides:
+#  freezed: ^2.3.2
+#  freezed_annotation: ^2.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - pubspec.yaml
+    - assets/serviceGuide/
+    - assets/icon/
+    - assets/image/
+    - assets/images/
+    - assets/icon/splash/
+    - assets/icon/appbar/
+    - assets/icon/home/
+    - assets/icon/product/
+    - assets/icon/profile/
+    - assets/icon/bluetooth/
+    - assets/icon/drawer/
+    - assets/icon/mynuuz/
+    - assets/icon/nuuzTalk/
+    - assets/icon/navbar/
+    - assets/icon/camera/
+    - assets/icon/scanner/
+    - assets/images/app_logo/
+    - assets/translation/
+    - assets/models/
+#    - assets/lottie/
+    - assets/icon/careProgram/
+
+  fonts:
+    - family: Spoqa
+      fonts:
+        - asset: assets/font/Spoqa_Han_Sans_Regular.ttf
+          weight: 400
+        - asset: assets/font/Spoqa_Han_Sans_Bold.ttf
+          weight: 700
+        - asset: assets/font/Spoqa_Han_Sans_Light.ttf
+          weight: 200
+        - asset: assets/font/Spoqa_Han_Sans_Thin.ttf
+          weight: 100
+    - family: Spoqa-Bold
+      fonts:
+        - asset: assets/font/Spoqa_Han_Sans_Bold.ttf
+
+    - family: Spoqa-Regular
+      fonts:
+        - asset: assets/font/Spoqa_Han_Sans_Regular.ttf
+    - family: CustomIcons
+      fonts:
+        - asset: assets/font/CustomIcons.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
+
+

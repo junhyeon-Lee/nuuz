@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200708931141",
+    "project_id": "nuuz-c749c",
+    "storage_bucket": "nuuz-c749c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200708931141:android:39895d01e98bfb2c09ed2c",
+        "android_client_info": {
+          "package_name": "com.ilooda.nuuz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200708931141-ak72qbp2csb9a8k8dlkgc7g6a4ldh96m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95SJjLmxj3z2nxFMu4d0hC5ozedHHK9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200708931141-ak72qbp2csb9a8k8dlkgc7g6a4ldh96m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
